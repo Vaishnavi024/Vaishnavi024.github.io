@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808 ;
+    background: #000000 ;
     color: white;
 }
 #header{
@@ -40,6 +40,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 20 px 20 px;
+    margin-inline: 7px;
 
 }
 nav ul li a{
