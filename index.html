@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio- Vaishnavi</title>
+    <title>Vaishnavi Srivastava - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4e5e4d7fc7.js" crossorigin="anonymous"></script>
 </head>
@@ -18,165 +18,229 @@
                     <li><a href="#about"> About </a></li>
                     <li><a href="#education"> Education </a></li>
                     <li><a href="#skills"> Skills </a></li>
-                    <li><a href="#interest"> Interests </a></li>
+                    <li><a href="#projects"> Projects </a></li>
+                    <li><a href="#experience"> Experience </a></li>
+                    <li><a href="#contact"> Contact </a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <h1>Hi! <br> I am <span>Vaishnavi</span></h1>
-                <h2> A Computer Science Student</h2>
-                <h3>And this is my portfolio...</h3>
+                <h2>Software Developer Specializing in Blockchain and AI/ML</h2>
+                <h3>Welcome to my portfolio...</h3>
             </div>
         </div>
     </div>
-    <!-- ----------------------------------------about------------------------------- -->
+    <!-- About Section -->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="image/bg3.jpg">
+                    <img src="image/bg.jpg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class ="subtitle">About Me</h1>
-                    <p>I am Vaishnavi Srivastava, 
-                       an upcoming B.Tech Computer Science graduate with
-                       specialization in Blockchain Technology. Often found confused on 
-                       what to answer the question, where am I from , as I have spent
-                       my life living in various cities of India viz-z-viz Kanpur,Patna,
-                       Lucknow,Jaipur,Bangalore to name a few. I derive 
-                       great joy from learning anything new  contantly pushing myself to
-                       be better and take up any novel artform, language or skill. And 
-                       currently, I am motivated to master web development. </p>
-                       <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('bio')"> Bio </p>
-                        <p class="tab-links" onclick="opentab('fav')" > Favorites </p>
-                        <p class="tab-links" onclick="opentab('bucket')" > Bucket List </p>
-                       </div>
-                       <div class="tab-contents active-tab" id="bio">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I am Vaishnavi Srivastava, an upcoming B.Tech Computer Science graduate specializing in Blockchain Technology and AI/ML. I am dedicated to continuous learning and innovation, striving to develop practical and impactful solutions. With a strong foundation in both theoretical and practical aspects of computer science, I am eager to apply my skills and creativity to meaningful projects in the tech industry.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('bio')">Bio</div>
+                        <div class="tab-links" onclick="opentab('leadership Roles')">Leadership Roles</div>
+                        <div class="tab-links" onclick="opentab('Interests')">Interests</div>
+                    </div>
+                    <div id="bio" class="tab-contents active-tab">
                         <ul>
-                            <li><span>Date of Birth</span><br>January 14</li>
-                            <li><span>Birthplace</span><br>Lucknow,U.P,India</li>
-                            <li><span>Zodiac</span><br>Aquarius</li>
+                            <li><span>Date of Birth:</span> January 24</li>
+                            <li><span>Currently Living:</span> Bengaluru, Karnataka, India</li>
+                            <li><span>Core Competencies:</span> Development, Blockchain Technology and AI</li>
                         </ul>
-                       </div>
-                       <div class="tab-contents" id="fav">
+                    </div>
+                    <div id="leadership Roles" class="tab-contents">
                         <ul>
-                            <li><span>Food</span><br>Chilli Paneer, Pizza, Ice cream</li>
-                            <li><span>Genre</span><br>Horror, Animation, Comedy, Thriller/Mystery</li>
-                            <li><span>Author</span><br>Agatha Christie, Ana Huang</li>
+                            <li><span>Student Placement Representative:</span> Empowered peers for internships and placements</li>
+                            <li><span>Webinar Organizer:</span> Hosted a webinar on Ethereum Dapp development</li>
+                            <li><span>PR Team Lead:</span> Led the PR team for the photography chapter</li>
                         </ul>
-                       </div>
-                       <div class="tab-contents" id="bucket">
+                    </div>
+                    <div id="Interests" class="tab-contents">
                         <ul>
-                            <li><span>Destination</span><br>Japan, Greece, London for Christmas</li>
-                            <li><span>Adventure Sports</span><br>River rafting, Sky diving</li>
-                            <li><span>Life Skills</span><br>Swimming, Driving</li>
+                            <li>Creating Digital and Traditional Art</li>
+                            <li>Reading</li>
+                            <li>Photography</li>
                         </ul>
-                       </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- --------------------------------------------education------------------------------>
+    <!-- Education Section -->
     <div id="education">
-        <div class="container ">
-            <h1 class ="subtitle">Education</h1>
+        <div class="container">
+            <h1 class="subtitle">Education</h1>
             <div class="education-list">
-                <div>
+                <div class="education-item">
                     <i class="fa-solid fa-building-columns"></i>
                     <h2>University</h2>
-                    <p>Currently pursuing Bachelor of Technology in Computer Science with 
-                        specialization in Blockchain Technology at University of Petroleum And
-                        Energy Studies, Dehradun. Current CGPA- 8.8
-                    </p>
+                    <p>Bachelor of Technology in Computer Science</p>
+                    <p>Specialization: Blockchain Technology</p>
+                    <p>University of Petroleum And Energy Studies, Dehradun</p>
+                    <p><strong>CGPA:</strong> 8.8</p>
                 </div>
-                <div>
+                <div class="education-item">
                     <i class="fa-solid fa-school"></i>
-                    <h2>Higher Secondary </h2>
-                    <p>Completed 12th CBSE Board at Cambridge Court High School, Jaipur with 80% score </p>
+                    <h2>Higher Secondary</h2>
+                    <p>Completed 12th CBSE Board</p>
+                    <p>Cambridge Court High School, Jaipur</p>
+                    <p><strong>Percentage:</strong> 80%</p>
                 </div>
-                <div>
+                <div class="education-item">
                     <i class="fa-solid fa-book"></i>
-                    <h2>Secondary school</h2>
-                    <p>Gave 10th boards in ICSE board from Children's Academy, Jaipur and topped north-west
-                         zone with 97.8%
-
-                    </p>
+                    <h2>Secondary School</h2>
+                    <p>Completed 10th boards in ICSE Board</p>
+                    <p>Children's Academy, Jaipur</p>
+                    <p><strong>Percentage:</strong> 97.8%</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- ---------------------------------------skills------------------------------------ -->
+    <!-- Skills Section -->
     <div id="skills">
         <div class="container">
-            <h1 class ="subtitle">My Skills</h1>
+            <h1 class="subtitle">My Skills</h1>
             <div class="skill-list">
+                <div class="skill">
+                    <img src="image/mobile dev.jpg">
+                    <div class="layer">
+                        <h3>Mobile Development</h3>
+                        <p>Experience in developing mobile applications using React Native</p>
+                        <p>Skilled in creating cross-platform applications for both iOS and Android</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="image/wed dev.jpg">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Skilled in HTML, CSS, JavaScript, React.js, Node.js, and Bootstrap</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="image/blc.jpg">
+                    <div class="layer">
+                        <h3>Blockchain Development</h3>
+                        <p>Experienced with Solidity, Ether.js, HardHat, and smart contract development</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="image/ai.jpg">
+                    <div class="layer">
+                        <h3>Machine Learning</h3>
+                        <p>Proficient in TensorFlow, scikit-learn, NLTK, Pandas, and NumPy</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="image/lang.jpg">
+                    <div class="layer">
+                        <h3>Languages</h3>
+                        <p>Java, JavaScript, C, C++, Python, Solidity</p>
+                    </div>
+                </div>
                 <div class="skill">
                     <img src="image/img10.jpg">
                     <div class="layer">
-                        <h3>Coding</h3>
-                        <p>-Proficient in programming langauges like C, C++, Python,Java</p>
-                        <p>-Studied Operating System, Computer System Architecture, Software Project Manangement
-                         Data Structures and Algorithm as part of coursework </p>
-                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Others</h3>
+                        <p>MongoDB, MySQL, Git, GitHub, Excel, Linux, Windows, Adobe Illustrator, Canva, Photoshop</p>
                     </div>
                 </div>
-                <div class="skill">
-                    <img src="image/img5.jpg">
-                    <div class="layer">
-                        <h3>Graphic Designer</h3>
-                        <p>-Skilled in Adobe Photoshop, Adobe Lightroom , Adobe Illustrator,Canva,
-                            Ibis Paint,Procreate</p>
-                        <p>-Has completed Basic Graphic Designing courses</p>
-                        
-                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="skill">
-                    <img src="image/img9.jpg">
-                    <div class="layer">
-                        <h3>Soft Skills</h3>
-                        <p>-A natural leader who is as just as effective in a team setup </p>
-                        <p>-Gifted with excellent decision making capabilities and fast learning abilities</p>
-                        <p>-Completed Ethical Leadership, Living Conversation, Design Thinking in coursework</p>
-                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-<!-- ------------------------interests------------------- -->
-<div id="interest">
-    <div class="container ">
-        <h1 class ="subtitle">My Interests</h1>
-        <div class="interest-list">
-            <div>
-                <i class="fa-solid fa-kitchen-set"></i>
-                <h2>Cooking</h2>
-                <p>Cooking is not only just a life skill but an art through which one can represent
-                    oneself, it's interpretion of various culture and creativity.
-                </p>
-            </div>
-            <div>
-                <i class="fa-solid fa-camera-retro"></i>
-                <h2>Photography </h2>
-                <p>Nothing feels more rewarding than delicately capturating a beautiful moment
-                     frozen in ever moving time </p>
-            </div>
-            <div>
-                <i class="fa-solid fa-bed"></i>
-                <h2>Naps</h2>
-                <p>When all fails, fall in bed and NAP :)</p>
             </div>
         </div>
     </div>
-</div>
-
-
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <h3>News Summarizer with GUI</h3>
+                    <ul>
+                        <li>Developed a Python application with a Tkinter GUI for content summarization from article links and performing sentiment analysis.</li>
+                        <li><b>Technologies:</b> Python, Tkinter, NLTK, TextBlob, Newspaper3k</li>
+                        <li><b>Link:</b> <a href="#">Project Link</a></li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>BizBloom - React Native eCommerce Mobile Application</h3>
+                    <ul>
+                        <li>Developed a cross-platform eCommerce mobile app tailored for small businesses.</li>
+                        <li>Implemented product search and personalized recommendations.</li>
+                        <li><b>Technologies:</b> React Native, Redux, JavaScript, iOS, Android</li>
+                        <li><b>Link:</b> <a href="#">Project Link</a></li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Book Reader Catalogue DApp</h3>
+                    <ul>
+                        <li>Built a decentralized application (DApp) on blockchain using smart contracts for managing book lists of readers and their reading status.</li>
+                        <li><b>Technologies:</b> Solidity, React, Ether.js, Node.js, HardHat, MetaMask, Alchemy</li>
+                        <li><b>Link:</b> <a href="#">Project Link</a></li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Personalized Numerology Web App</h3>
+                    <ul>
+                        <li>Created a responsive web application to compute personalized numerology reports.</li>
+                        <li><b>Technologies:</b> HTML, CSS, JavaScript, Bootstrap</li>
+                        <li><b>Link:</b> <a href="#">Project Link</a></li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Marks Mapping Automation Tool</h3>
+                    <ul>
+                        <li>Reduced manual effort by 90% of the university’s educators by automating marks mapping to course-level questions.</li>
+                        <li><b>Technologies:</b> Java, Java Swing, Apache POI, MongoDB</li>
+                        <li><b>Link:</b> <a href="#">Project Link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Experience Section -->
+    <div id="experience">
+        <div class="container">
+            <h1 class="subtitle">Experience</h1>
+            <div class="experience-list">
+                <div class="experience">
+                    <h3>React Developer Intern</h3>
+                    <p>Voosh Technologies, Bengaluru, India</p>
+                    <ul>
+                        <li>Implemented responsive user interface components using React.js to enhance Voosh’s website performance.</li>
+                        <li>Assisted UX/UI designers in translating design concepts into user-friendly web applications.</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>Research and Web Development Intern</h3>
+                    <p>Milaap Social Ventures, Bengaluru, India</p>
+                    <ul>
+                        <li>Researched challenges in cancer patient care and collaborated with a multidisciplinary team to analyze datasets and optimize fundraising strategies.</li>
+                        <li>Contributed to the development of the organization’s website, increasing user engagement by 15%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="subtitle" style="text-align: left;">Contact</h1>
+            <p>Connect with me:</p>
+            <div class="icon-container">
+                <a href="mailto:vaishnavi.srivastava024@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/vaishnavi-srivastava-9187b8241" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Vaishnavi024" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -189,13 +253,8 @@
             }
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
-             
         }
-    </script>
-
-    <script>
         var sm = document.getElementById("sidemenu");
-
         function openmenu(){
             sm.style.right="0";
         }
